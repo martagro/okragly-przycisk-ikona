@@ -1,7 +1,25 @@
 .round {
-    width: 50px;
-    height: 50px;
-    background: yellow;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
-i {}
+.round a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    /*odsuwa ikonę od góry okrągłego kontenera*/
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: darkturquoise;
+    font-size: 28px;
+    color: white;
+}
+
+.round a:hover {
+    background-color: white;
+    color: darkturquoise;
+    border: 1px solid darkturquoise;
+    transition: all 0.4s;
+}
